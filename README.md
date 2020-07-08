@@ -16,7 +16,7 @@ Further documentation for Wrangler can be found [here](https://developers.cloudf
 
 #### Transcrypt
 
-Before running wrangler commands, you'll need to do one-time setup of Transcrypt.  Assuming you have Python and virtualenv installed per the linked instructions above,
+Before building your project, you'll need to do one-time setup of Transcrypt.  Assuming you have Python and virtualenv installed per the linked instructions above,
 
 ```
 cd projectname
@@ -30,4 +30,4 @@ pip install transcrypt
 
 After that commands such as `wrangler build` should work.  If you exit virtualenv (`deactivate`) and return to the project directory later, you'll need to activate virtualenv (`source env/bin/activate`) but will not need to rerun the other installation commands.
 
-For more information on how Python translates to Javascript, see the [Transcrypt docs](http://www.transcrypt.org/documentation)
+For more information on how Python translates to Javascript, see the [Transcrypt docs](http://www.transcrypt.org/documentation).
