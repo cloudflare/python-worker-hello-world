@@ -1,6 +1,6 @@
 # Python hello world for Cloudflare Workers
 
-Your Python code in index.py, running on Cloudflare Workers.
+Your Python code in [index.py](https://github.com/cloudflare/python-worker-hello-world/blob/master/index.py), running on Cloudflare Workers.
 
 In addition to [Wrangler](https://github.com/cloudflare/wrangler) and [npm](https://www.npmjs.com/get-npm), you will need to install [Transcrypt](http://www.transcrypt.org/docs/html/installation_use.html), including Python 3.7 and virtualenv.
 
