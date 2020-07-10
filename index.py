@@ -1,5 +1,5 @@
 def handleRequest(request):
-    return __new__(Response('Hello Worker Python', {
+    return __new__(Response('Python Worker hello world!', {
         'headers' : { 'content-type' : 'text/plain' }
     }))
 
