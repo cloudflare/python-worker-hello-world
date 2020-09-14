@@ -16,7 +16,7 @@ Further documentation for Wrangler can be found [here](https://developers.cloudf
 
 #### Transcrypt
 
-Before building your project, you'll need to do one-time setup of Transcrypt.  Assuming you have Python 3.7 and virtualenv installed per the linked instructions above,
+Before building your project, you'll need to do one-time setup of Transcrypt.  Assuming you have Python 3.7 and virtualenv installed per the linked instructions above, that setup on unix systems looks like the following (for windows see [virtualenv docs](https://virtualenv.pypa.io/en/latest/user_guide.html#activators)):
 
 ```
 cd projectname
