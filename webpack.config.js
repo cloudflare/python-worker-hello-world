@@ -1,14 +1,14 @@
 module.exports = {
     entry: "./index.py",
-    mode: 'production',
+    mode: "production",
     target: "webworker",
     module: {
         rules: [
             {
                 test: /\.py$/,
-                loader: 'transcrypt-loader',
+                loader: "transcrypt-loader",
                 options: {
-                    command: 'python3 -m transcrypt'
+                    command: "python3 -m transcrypt"
                 }
             }
         ]
