@@ -4,14 +4,14 @@
   "description": "Python hello world for Cloudflare Workers",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack -c webpack.config.js"
   },
   "keywords": [],
   "author": "{{ authors }}",
   "license": "MIT",
   "devDependencies": {
     "transcrypt-loader": "^1.0.2",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
   }
 }
