@@ -1,8 +1,7 @@
 name = ""
 account_id = ""
 workers_dev = true
-route = ""
-zone_id = ""
+route = { pattern = "", zone_id = ""}
 
 [build]
 command = "npm run build"
