@@ -7,6 +7,7 @@ In addition to [Wrangler](https://github.com/cloudflare/wrangler2) and [npm](htt
 #### Wrangler
 
 - Clone repository (`git clone https://github.com/cloudflare/python-worker-hello-world`)
+- Run `npm install`
 - Update `wrangler.toml` with your project `name`, `account_id`, and `route` as required
 
 Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/wrangler/).
