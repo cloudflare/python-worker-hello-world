@@ -2,6 +2,8 @@ name = ""
 account_id = ""
 workers_dev = true
 route = { pattern = "", zone_id = ""}
+main = "dist/main.js"
+compatibility_date = "2022-06-03"
 
 [build]
 command = "npm run build"
