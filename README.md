@@ -2,17 +2,15 @@
 
 Your Python code in [index.py](https://github.com/cloudflare/python-worker-hello-world/blob/master/index.py), running on Cloudflare Workers.
 
-In addition to [Wrangler](https://github.com/cloudflare/wrangler) and [npm](https://www.npmjs.com/get-npm), you will need to install [Transcrypt](http://www.transcrypt.org/docs/html/installation_use.html), including Python 3.7 and virtualenv.
+In addition to [Wrangler](https://github.com/cloudflare/wrangler2) and [npm](https://www.npmjs.com/get-npm), you will need to install [Transcrypt](https://www.transcrypt.org/docs/html/installation_use.html), including Python 3.7 and virtualenv.
 
 #### Wrangler
 
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
+- Clone repository (`git clone https://github.com/cloudflare/python-worker-hello-world`)
+- Run `npm install`
+- Update `wrangler.toml` with your project `name`, `account_id`, and `route` as required
 
-```
-wrangler generate projectname https://github.com/cloudflare/python-worker-hello-world
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/wrangler/).
 
 #### Transcrypt
 
@@ -32,7 +30,7 @@ After that you can run Wrangler commands, such as `wrangler publish` to push you
 
 If `python3` is not Python 3.7 on your system, make sure you install it, create the virtualenv using the right version of Python, and edit webpack.config.js under `command` to specify the correct path to the Python 3.7 executable in the virtualenv directory. If you are using Windows, see [this workaround for an issue with transcrypt-loader paths](https://github.com/QQuick/Transcrypt/issues/624#issuecomment-507866238).
 
-For more information on how Python translates to Javascript, see the [Transcrypt docs](http://www.transcrypt.org/documentation). especially the [module mechanism](http://www.transcrypt.org/docs/html/special_facilities.html#transcrypt-s-module-mechanism) and [aliases](http://www.transcrypt.org/docs/html/special_facilities.html#pragma-alias).
+For more information on how Python translates to Javascript, see the [Transcrypt docs](https://www.transcrypt.org/documentation). especially the [module mechanism](https://www.transcrypt.org/docs/html/special_facilities.html#transcrypt-s-module-mechanism) and [aliases](http://www.transcrypt.org/docs/html/special_facilities.html#pragma-alias).
 
 Because of aliases, for a KV namespace binding named `KV` you can use `KV.put` normally, but need to use `KV.js_get` instead of `KV.get`. For example, a handler using KV might look like:
 

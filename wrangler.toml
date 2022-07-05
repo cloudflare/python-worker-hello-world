@@ -1,7 +1,7 @@
 name = ""
-type = "webpack"
 account_id = ""
 workers_dev = true
-webpack_config = "webpack.config.js"
-route = ""
-zone_id = ""
+route = { pattern = "", zone_id = ""}
+
+[build]
+command = "npm run build"
