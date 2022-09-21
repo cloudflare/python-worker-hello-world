@@ -1,4 +1,4 @@
-name = "placeholder"
+name = "python-worker"
 main = "dist/main.js"
 compatibility_date = "2022-06-03"
 
