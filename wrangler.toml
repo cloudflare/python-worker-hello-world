@@ -1,7 +1,4 @@
-name = ""
-account_id = ""
-workers_dev = true
-route = { pattern = "", zone_id = ""}
+name = "python-worker"
 main = "dist/main.js"
 compatibility_date = "2022-06-03"
 
